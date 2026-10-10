@@ -1,0 +1,10 @@
+method,kind,n,mean_ms,sd_ms,mean_mb
+cce,loss-fw,5,22.46,0.03,0.56
+torch_compile,loss-fw,5,19.41,0.69,2048.06
+baseline,loss-fw,5,25.28,0.07,10240.00
+cce,loss-bw,5,66.65,1.52,1360.83
+torch_compile,loss-bw,5,40.48,0.02,6144.00
+baseline,loss-bw,5,43.26,0.04,8192.00
+cce,loss-fw-bw,5,87.79,1.54,1361.36
+torch_compile,loss-fw-bw,5,59.06,0.09,8192.06
+baseline,loss-fw-bw,5,68.91,0.07,12288.00
